@@ -23,12 +23,19 @@
   },
   "homepage": "https://github.com/DungLe2983/blog-Node#readme",
   "dependencies": {
+    "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.3",
+    "mongoose": "^8.18.1",
+    "mongoose-slug-generator": "^1.0.4",
     "morgan": "^1.10.1",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "slugify": "^1.6.6"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "prettier": "^3.6.2",
     "sass": "^1.92.1"
   }
 }
